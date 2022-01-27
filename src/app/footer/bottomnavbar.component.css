@@ -1,3 +1,33 @@
 .nav-link.text-white:hover{
    color: #ffff006e !important;
 }
+
+div{
+   float: right !important;
+
+}
+
+.myclass{
+   width: 50px; 
+   height:180px
+}
+
+.myclass2{
+   width: 150px;
+   height:180px;
+}
+
+.myclass3{
+   width: 150px;  
+   height:180px;
+}
+
+.myclass4{
+   width: 500px;  
+   height:180px;
+}
+
+.myclass5{
+   width: 350px; 
+   height:180px;
+}

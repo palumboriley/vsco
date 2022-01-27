@@ -1,0 +1,11 @@
+p{
+    color: gray;
+    position:absolute;
+    text-align: left;
+    font-size: smaller;
+}
+
+.card{
+    width:225.15px;
+    height: 300px;
+}

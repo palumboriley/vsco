@@ -1,0 +1,35 @@
+
+img{
+width:120px;
+height: 120px;
+border-radius: 50%;
+
+}
+
+.card{
+    width: 300px;
+    height: 300px;
+    align-items: center !important; 
+    border:none;
+}
+
+.username{
+    font-weight: 450;
+    text-align: center;
+}
+
+.card-link{
+    color:gray;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card-link:hover{
+    color:black;
+}
+
+.name{
+    color:#AAAAAA;
+    text-align: center;
+    font-size: 12px;
+}
