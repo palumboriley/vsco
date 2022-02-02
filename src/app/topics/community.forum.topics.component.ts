@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector:"vsco-community-forum-topics-component",
@@ -6,5 +6,26 @@ import { Component } from "@angular/core";
     styleUrls: ["community.forum.topics.component.css"]
 })
 export class CommunityForumTopicsComponent{
+    @Input() logo: string;
+    @Input() title: string;
+    @Input() firstLine: string;
+    @Input() secondLine:string;
+    @Input() thirdLine:string;
+    @Input() fourthLine:string;
+    @Input() link: string;
+    @Input() color: string;
+
+    constructor(){
+        this.logo="/assets/bootstrap-icons.svg#question-circle";
+        this.title="Missing Title";
+        this.firstLine="Missing "
+        this.secondLine="Missing"
+        this.thirdLine="Missing"
+        this.fourthLine="Missing"
+        this.link="Missing";
+        this.color="Black";
+    }
 
 }
+
+

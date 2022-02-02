@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector:"vsco-feed-picture",
@@ -6,5 +6,12 @@ import { Component } from "@angular/core";
     styleUrls: ["feed.picture.component.css"]
 })
 export class FeedPictureComponent{
+    @Input() img: string;
+    @Input() name: string;
+
+    constructor(){
+        this.img = "./assets/IMG_2302.JPG"
+        this.name = "rileympal";
+    }
 
 }
