@@ -2,7 +2,7 @@ export const mock_picture_list= [
 
 {
     img: "./assets/amanda.JPEG",
-    name: "amandasm",
+    name: "amandasmolina",
 },
 
 
