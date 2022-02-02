@@ -13,17 +13,19 @@ export class CommunityForumTopicsComponent{
     @Input() thirdLine:string;
     @Input() fourthLine:string;
     @Input() link: string;
+    @Input() link2: string;
     @Input() color: string;
 
     constructor(){
         this.logo="/assets/bootstrap-icons.svg#question-circle";
         this.title="Missing Title";
-        this.firstLine="Missing "
-        this.secondLine="Missing"
-        this.thirdLine="Missing"
-        this.fourthLine="Missing"
+        this.firstLine="Missing ";
+        this.secondLine="Missing";
+        this.thirdLine="Missing";
+        this.fourthLine="Missing";
         this.link="Missing";
-        this.color="Black";
+        this.link2="Missing";
+        this.color="black";
     }
 
 }

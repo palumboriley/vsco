@@ -6,6 +6,7 @@ export class CommTopicModel {
     thirdLine:string;
     fourthLine:string;
     link: string;
+    link2:string;
     color: string;
     
     constructor(logo:string,
@@ -15,6 +16,7 @@ export class CommTopicModel {
         thirdLine:string,
         fourthLine:string,
         link:string,
+        link2: string,
         color:string){
             this.logo=logo;
             this.title=title;
@@ -23,6 +25,7 @@ export class CommTopicModel {
             this.thirdLine=thirdLine;
             this.fourthLine=fourthLine;
             this.link=link;
+            this.link2=link2;
             this.color=color;
         }
 }
