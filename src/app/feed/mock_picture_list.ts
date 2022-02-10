@@ -17,4 +17,9 @@ name: "taylorsemon",
     name: "rileympal",
 },
 
+{
+    img:"./assets/IMG_2302.JPG",
+    name: "rileympal",
+},
+
 ];

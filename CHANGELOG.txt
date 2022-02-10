@@ -1,0 +1,70 @@
+Change Log / Release Notes
+Riley Palumbo
+
+
+CS230 Lab 4
+Main features:
+• Created app-routing.module.ts and added routing in this file for all six new layout components    
+
+• Routed previously made ProfilePictureComponent to the “Profile” tab on the top navigation
+bar
+
+• Modified app.component.html to take out components not shown on main webpage- moved
+these to other files as needed
+
+• Modified app.component.ts to take out things in the constructor and app component class that
+needed to be moved elsewhere for routing and organization purposes
+
+• Modified app.module.ts to include AppRoutingModule and all 6 new layout components
+
+• Created 1st new layout component : MyHomeLayoutComponent
+    • Created my-home-layout.component.ts -> pasted previously used constructors to include
+    repeated components that should be on the “My Home” page
+    • Created my-home-layout.component.html -> pasted everything I made previously that
+    should be in the “My Home” page
+    • Created my-home-layout.component.css
+
+• Created 2nd new layout component: CommunityLayoutComponent
+    • Created community-layout.component.ts -> pasted previously used constructor to include
+    repeated Community Forum Topics Component that should be on the “Community” page
+    • Created community-layout.component.html -> pasted everything I made previously that
+    should be in the “Community” page
+    • Created community-layout-component.css
+
+• Created 3rd new layout component: ProfileLayoutComponent
+    • Created profile-layout.component.ts
+    • Created profile-layout.component.html -> pasted everything I made previously that should
+    be in the “Profile” page
+    • Created profile-layout-component.css
+
+• Created 4th new layout component DefaultHomeLayoutComponent
+    • Created default-home-layout.component.ts
+    • Created default-home-layout.component.html
+    • Created default-home-layout-component.css
+
+• Created 5th new layout component AccountLayoutComponent
+    • Created account-layout.component.ts
+    • Created account-layout.component.html
+    • Created account-layout-component.css
+
+• Created 6th new layout component SupportLayoutComponent (BONUS)
+    • Created support-layout.component.ts
+    • Created support-layout.component.html
+    • Created support-layout-component.css
+
+• Modified topnavbar.component.html to add router links to the top nav bar and make them
+active.
+
+• Modified topnavbar.component.css to bold the words on the top nav bar when they are clicked
+and when a user is on that page - like it is on the real website
+
+• Modified community-layout.component.html, profile-layout.component.html, and my-home-layout.component.html 
+and used flex layout from bootstrap and margins to organize the components I previously made :
+profile picture component, feed picture component, community forum topics component
+
+
+BONUS FEATURES:
+    • Created 6th new layout component SupportLayoutComponent (BONUS)
+    • Created support-layout.component.ts
+    • Created support-layout.component.html
+    • Created support-layout-component.css

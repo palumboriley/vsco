@@ -1,29 +1,11 @@
 <vsco-topnavbar>Loading...</vsco-topnavbar>
 
+<router-outlet></router-outlet>
+
+
 
 <div class="my-bottom-margin">
 
-<div class="container-fluid d-flex">
-    <div *ngFor="let picture of pictures">
-        <vsco-feed-picture img={{picture.img}} name={{picture.name}}>Loading...</vsco-feed-picture>
-    </div>
-</div>
-
-
-<div class="container-fluid d-flex">
-    <div *ngFor="let commtopic of commtopics">
-        <vsco-community-forum-topics-component logo={{commtopic.logo}} title={{commtopic.title}}
-            firstLine={{commtopic.firstLine}} secondLine={{commtopic.secondLine}} thirdLine={{commtopic.thirdLine}}
-            fourthLine={{commtopic.fourthLine}} link={{commtopic.link}} link2={{commtopic.link2}} color={{commtopic.color}}>Loading...
-        </vsco-community-forum-topics-component>
-    </div>
-</div>
-
-<div class="container-fluid d-flex">
-    <vsco-profile-picture-component>Loading...</vsco-profile-picture-component>
-</div>
-
-<vsco-load-button-component>Loading...</vsco-load-button-component>
 
 
 </div>

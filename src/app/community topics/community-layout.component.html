@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="container-fluid d-flex">
+            <div *ngFor="let commtopic of commtopics" class="col-4">
+                <vsco-community-forum-topics-component logo={{commtopic.logo}} title={{commtopic.title}}
+                    firstLine={{commtopic.firstLine}} secondLine={{commtopic.secondLine}}
+                    thirdLine={{commtopic.thirdLine}} fourthLine={{commtopic.fourthLine}} link={{commtopic.link}}
+                    link2={{commtopic.link2}} color={{commtopic.color}}>Loading...
+                </vsco-community-forum-topics-component>
+            </div>
+        </div>
+    </div>
+</div>

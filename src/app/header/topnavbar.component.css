@@ -10,3 +10,7 @@ color:  gray !important;
 svg.bi:hover{
     fill:gray;
 }
+
+.active{
+    font-weight: bold;
+}
