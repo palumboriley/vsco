@@ -1,6 +1,23 @@
 Change Log / Release Notes
 Riley Palumbo
 
+
+CS230 Lab 6
+Main Features:
+
+-Created Firebase Database
+-created and implemented user-info.component.css, user-info.component.html, user-info.component.ts
+-modified app.module.ts to include UserInfoComponent and HttpClientModule
+-modified app.component.html to display vsco-user-info component
+-created and implemented user-info.model.ts
+
+
+
+*End of Change Log for lab 6*
+
+
+
+
 CS230 Lab 5
 Main features:
 

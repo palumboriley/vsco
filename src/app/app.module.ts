@@ -22,7 +22,8 @@ import { FrequentlySearchedComponent } from './support/frequently-searched/frequ
 import { VideoTutorialsComponent } from './support/video-tutorials/video-tutorials.component';
 import { SupportPageComponent } from './support/support-page/support-page.component';
 import { SupportTopicsComponent } from './support/support-topics/support-topics.component';
-
+import { UserInfoComponent } from './user-info/user-info.component';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -48,13 +49,16 @@ import { SupportTopicsComponent } from './support/support-topics/support-topics.
     VideoTutorialsComponent,
     SupportPageComponent,
     SupportTopicsComponent,
+    UserInfoComponent,
    
     
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
