@@ -1,7 +1,7 @@
-h2{
+.header1{
     color:white;
     font-weight: 400;
-    padding-left: 200px;
+    padding-left: 350px;
 }
 
 .myclass1{
@@ -9,8 +9,13 @@ h2{
 }
 
 .myclass2{
-    padding-left:200px;
+    padding-left:330px;
 }
 
+.header2{
+    color:black;
+    font-weight: 400;
+    padding-left: 350px;
+}
 
 

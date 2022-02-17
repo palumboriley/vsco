@@ -1,5 +1,5 @@
 .card{
-    height:900px;
+    height:750px;
     width:1900px;
     float:right;
     background-color: #AAC9D1;
@@ -22,8 +22,5 @@
     border-color:white;
 }
 
-.card-body{
-    padding-left: 1200px;
-    padding-top: 250px;
-}
+
 

@@ -7,6 +7,8 @@ import { AccountCircleModel } from './account/accountcircle.model';
 import { mock_accountcircle_list } from './account/mock_accountcircle_list';
 import { FrequentlySearchedModel } from './support/frequently-searched/frequentlysearched.model';
 import { mock_frequentlysearced_list } from './support/frequently-searched/mock_frequentlysearched_list';
+import { SupportTopicsModel } from './support/support-topics/supporttopics.model';
+import { mock_supporttopics_list } from './support/support-topics/mock_supporttopics_list';
 
 
 

@@ -5,7 +5,9 @@
 <div class="myclass1">
     <br>
     <br>
-    <h2>Frequently Searched</h2>
+    <div class="header1">
+        <h2>Frequently Searched</h2>
+    </div>
     <br>
     <br>
     <div class="myclass2">
@@ -20,12 +22,35 @@
         <br>
     </div>
 </div>
-    
 
-    <div class="myclass3">
-
-        <vsco-video-tutorials>Loading...</vsco-video-tutorials>
-
+<div class="class">
+    <br>
+    <br>
+    <div class="header2">
+        <h2>Support Topics</h2>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col-4" *ngFor="let supporttopic of supporttopics">
+                        <vsco-support-topics logo={{supporttopic.logo}} title={{supporttopic.title}}
+                            firstLine={{supporttopic.firstLine}} link={{supporttopic.link}} link2={{supporttopic.link2}}
+                            link3={{supporttopic.link3}} color={{supporttopic.color}}>Loading...
+                        </vsco-support-topics>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
 
-    
+<div class="myclass3">
+
+    <vsco-video-tutorials>Loading...</vsco-video-tutorials>
+
+</div>

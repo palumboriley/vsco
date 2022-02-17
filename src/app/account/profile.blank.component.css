@@ -13,7 +13,6 @@
 p{
 color: gray;
 position:absolute;
-padding-left: 50px;
 }
 
 
@@ -33,3 +32,4 @@ padding-left: 50px;
 .form-control:hover{
     border-color:black;
 }
+

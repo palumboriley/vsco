@@ -21,6 +21,7 @@ import { VscoProfileCardComponent } from './account/vsco.profile.card.component'
 import { FrequentlySearchedComponent } from './support/frequently-searched/frequently-searched.component';
 import { VideoTutorialsComponent } from './support/video-tutorials/video-tutorials.component';
 import { SupportPageComponent } from './support/support-page/support-page.component';
+import { SupportTopicsComponent } from './support/support-topics/support-topics.component';
 
 
 
@@ -46,6 +47,7 @@ import { SupportPageComponent } from './support/support-page/support-page.compon
     FrequentlySearchedComponent,
     VideoTutorialsComponent,
     SupportPageComponent,
+    SupportTopicsComponent,
    
     
 

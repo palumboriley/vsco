@@ -6,7 +6,7 @@ Main features:
 
 -3 new components in AccountLayoutComponent:
 
-*1st Card Component in AccountLayoutComponent: Account Circle Component- programatically repeated component - 3 instances
+*1st Card Component in AccountLayoutComponent: Account Circle Component- programatically repeated component - 3 instances (bonus for repeated component)
 - Account Circle Component has 3 attributes: title(string), logo(string), and color(string) 
 -created and imlemeted account.circle.component.html, account.circle.component.ts, and account.circle.component.css
 -created and implemented accountcircle.model.ts
@@ -24,15 +24,15 @@ Main features:
 *3rd Card Component in AccountLayoutComonent: VscoProfileCardComponent
 -created and implemented vsco.profile.card.component.html,vsco.profile.card.component.css, vsco.profile.card.component.ts
 -modified account-layout.component.css
--modified account-layout.component.html and organized with padding 
+-modified account-layout.component.html and organized with flex layout
 -modified account-layout.component.ts
 
 -3 new card components in SupportLayoutComponent:
 
-*1st Card component in AccountLayoutComponent: FrequentlySearchedComponent
+*1st Card component in AccountLayoutComponent: FrequentlySearchedComponent - 3 instances- programatically repeated (bonus)
 -created and implemented frequently-searched.component.css, frequently-searched.component.ts, and frequently-searched.component.html
 -modified support-layout.component.css
--modified support-layout.component.html and organized component with bootstrap flex and rows/columns
+-modified support-layout.component.html and organized component with bootstrap flex layout
 -modified support-layout.component.ts
 
 *2nd Card Component in SupportLayoutComponent: VideoTutorialsComponent
@@ -41,33 +41,52 @@ Main features:
 -modified support-layout.component.html and organized component with flex layout
 -modified support-layout.component.ts
 
-* 3rd Card Component in Support LayoutComponent: SupportPageComponent
--created and implemented support-page.component.css,support-page.component.ts, and support-page.component.html
+
+*3rd Card Component in SupportLayoutComponent: SupportTopics component- programatically repeated component - 6 instances
+-SupportTopics component has 7 attributes: logo(string), title(string), firstLine(string), link(string), link2(string), link3(string), and color(string)
+-created and implemented support-topics.component.css, support-topics.component,html, and support-topics.component.ts
+-created supporttopics.model.ts and mock_supporttopics_list.ts
 -modified support-layout.component.css
 -modified support-layout.component.html and organized component with flex layout
 -modified support-layout.component.ts
 
--modifed app.component.ts and app.module.ts to include new components
+-modifed app.component.ts and app.module.ts to include ALL new components
 
 
 Bonus Features:
--added another comm topic component with mock_commtopic_list.ts
+-added another instance of comm topic component with mock_commtopic_list.ts
 
--fixed layout of community-layout.component.html using flex from bootstrap with rows and cols 
+-fixed layout of community-layout.component.html using flex layout from bootstrap 
 
 -added heading to community-layout.component.html
 -positioned heading correctly by modifying community-layout.component.css
 
 -modifed account-layout.component.html and account-layout.component.css to include titles and lines like the website has
 
--programatically added multiple instances of FrequentlySearchedComponent- 3 instances- 1 input = title(string)
+-programatically added multiple instances of FrequentlySearchedComponent- 3 instances and 1 input = title(string)
 
--programatically added multiple instances of Account Circle Component
+-modifed support-layout.component.html to add headings on the website and positioned them
 
+-programatically added multiple instances of Account Circle Component- 3 instances and 3 inputs = title(string), logo(string), color(string)
 
+-implemented a 4th component in SupportLayoutComponent:
+* 4th Card Component in SupportLayoutComponent: SupportPageComponent
+-created and implemented support-page.component.css,support-page.component.ts, and support-page.component.html
+-modified support-layout.component.css
+-modified support-layout.component.html and organized component with flex layout
+-modified support-layout.component.ts
 
 
 *End of Lab 5 Change Log*
+
+
+
+
+
+
+
+
+
 
 
 

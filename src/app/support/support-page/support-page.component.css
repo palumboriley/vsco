@@ -1,5 +1,5 @@
 .card{
-    height:700px;
+    height:600px;
     width:1900px;
 
     background-color: #EDBB39;
@@ -16,11 +16,14 @@ form{
     border-color: black;
 }
 
-
+a{
+    color: black !important;
+}
 
 
 
 p.small-class{
     font-size: 10px;
 }
+
 

@@ -1,49 +1,39 @@
-<div class="container-fluid d-flex my-class1">
+<div class="container-fluid my-5">
     <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-            <div class="row">
-                <div class="col-4" *ngFor="let accountcircle of accountcircles">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div class="row d-flex justify-content-center">
+                <div class="col-2" *ngFor="let accountcircle of accountcircles">
                     <vsco-account-circle-component logo={{accountcircle.logo}} title={{accountcircle.title}}
                         color={{accountcircle.color}}>Loading...
                     </vsco-account-circle-component>
                 </div>
             </div>
+
+            <div class="row d-flex justify-content-center">
+                <div class="title-class1">
+                    <p class="line">_______________</p>
+                    <p>Profile</p>
+                </div>
+            </div>
+
+
+
+            <div class="row d-flex justify-content-center">              
+                    <vsco-profile-blank-component>Loading...</vsco-profile-blank-component>              
+            </div>
+
+        
+
+            <div class="row">
+                
+            <div class=" d-flex justify-content-end px-6">
+                
+            <vsco-vsco-profile-card>Loading...</vsco-vsco-profile-card>
+            </div>
+            </div>
+
         </div>
-    </div>
-    <div class="col-2"></div>
-</div>
-
-<br>
-<br>
-
-<div class="title-class1">
-    <p class="line">_______________</p>
-    <p>Profile</p>
-</div>
-
-<br>
-<br>
-
-
-<div class="container-fluid d-flex my-class2">
-    <div class="row">
         <div class="col-2"></div>
-        <div class="col-9">
-            <vsco-profile-blank-component>Loading...</vsco-profile-blank-component>
-        </div>
     </div>
-</div>
-
-<br>
-<br>
-
-
-<div class="title-class2">
-    <p class="line">_______________</p>
-    <p>VSCO Profile</p>
-</div>
-
-<div class="vsco-card-class">
-    <vsco-vsco-profile-card>Loading...</vsco-vsco-profile-card>
 </div>
