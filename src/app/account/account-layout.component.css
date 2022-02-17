@@ -1,0 +1,36 @@
+div{
+    align-items: center;
+ 
+}
+
+.my-class1{
+padding-left:665px!important;
+}
+
+.my-class2{
+    padding-left:400px !important;
+}
+
+.title-class1{
+    text-align: center;
+    font-size: large !important;
+    font-weight: 500;
+}
+
+.line{
+    text-align: center;
+    color: gray;
+    font-size: xx-small;
+    font-weight: 300;
+}
+
+.title-class2{
+    text-align: center;
+    font-size: large !important;
+    font-weight: 500;
+    padding-left: 370px;
+}
+
+.vsco-card-class{
+    padding-left:970px;
+}

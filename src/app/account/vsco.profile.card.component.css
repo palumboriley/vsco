@@ -1,0 +1,19 @@
+.card{
+    width: 260px;
+    height: 205px;
+    border-color: black;
+    text-align: center;
+    
+}
+
+.card-link{
+    text-decoration: none;
+    font-weight: 600;
+    color: #AF9959;
+    font-size: 13px;
+}
+
+.card-subtitle{
+    font-size: small;
+    font-weight: 500;
+}

@@ -1,0 +1,50 @@
+.card{
+    width:100px;
+    height:100px;
+    text-decoration: none;
+    border-color: white;
+
+}
+
+
+.card-link{
+    text-decoration: none;
+    
+}
+
+.card-title{
+    color: #CCCCCC !important;
+    font-weight:500;
+    text-align: center;
+}
+
+.card-link:hover{
+    color: gray !important;
+}
+
+
+
+.card-text.card-link{
+    color:black;
+    font-weight:500;
+    text-align: center;
+}
+
+
+
+
+.circle-icon {
+    background-color:black; 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+    padding: 5px;
+    color: white;
+}
+
+.circle-icon:hover{
+    background-color:gray !important;
+}

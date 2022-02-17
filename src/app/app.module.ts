@@ -15,6 +15,15 @@ import { ProfileLayoutComponent } from './profile/profile-layout.component';
 import { DefaultHomeLayoutComponent } from './default-home-page/default-home-layout.component';
 import { AccountLayoutComponent } from './account/account-layout.component';
 import { SupportLayoutComponent } from './support/support-layout.component';
+import { AccountCircleComponent } from './account/account.circle.component';
+import { ProfileBlankComponent } from './account/profile.blank.component';
+import { VscoProfileCardComponent } from './account/vsco.profile.card.component';
+import { FrequentlySearchedComponent } from './support/frequently-searched/frequently-searched.component';
+import { VideoTutorialsComponent } from './support/video-tutorials/video-tutorials.component';
+import { SupportPageComponent } from './support/support-page/support-page.component';
+
+
+
 
 @NgModule({
   declarations: [
@@ -31,6 +40,15 @@ import { SupportLayoutComponent } from './support/support-layout.component';
     DefaultHomeLayoutComponent,
     AccountLayoutComponent,
     SupportLayoutComponent,
+    AccountCircleComponent,
+    ProfileBlankComponent,
+    VscoProfileCardComponent,
+    FrequentlySearchedComponent,
+    VideoTutorialsComponent,
+    SupportPageComponent,
+   
+    
+
   ],
   imports: [
     BrowserModule,

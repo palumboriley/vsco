@@ -1,0 +1,29 @@
+.card{
+    height:900px;
+    width:1900px;
+    float:right;
+    background-color: #AAC9D1;
+}
+
+.card-text{
+    font-weight: 500;
+    
+}
+
+.btn{
+    background-color: black;
+    color: #AAC9D1;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.btn:hover{
+    border-color:white;
+}
+
+.card-body{
+    padding-left: 1200px;
+    padding-top: 250px;
+}
+

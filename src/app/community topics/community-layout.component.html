@@ -1,13 +1,23 @@
-<div class="container">
+<br>
+<header>
+    Community Forum Topics
+</header>
+<br>
+<br>
+<div class="container-fluid">
     <div class="row">
-        <div class="container-fluid d-flex">
-            <div *ngFor="let commtopic of commtopics" class="col-4">
-                <vsco-community-forum-topics-component logo={{commtopic.logo}} title={{commtopic.title}}
-                    firstLine={{commtopic.firstLine}} secondLine={{commtopic.secondLine}}
-                    thirdLine={{commtopic.thirdLine}} fourthLine={{commtopic.fourthLine}} link={{commtopic.link}}
-                    link2={{commtopic.link2}} color={{commtopic.color}}>Loading...
-                </vsco-community-forum-topics-component>
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-4" *ngFor="let commtopic of commtopics">
+                    <vsco-community-forum-topics-component logo={{commtopic.logo}} title={{commtopic.title}}
+                        firstLine={{commtopic.firstLine}} secondLine={{commtopic.secondLine}}
+                        thirdLine={{commtopic.thirdLine}} fourthLine={{commtopic.fourthLine}} link={{commtopic.link}}
+                        link2={{commtopic.link2}} color={{commtopic.color}}>Loading...
+                    </vsco-community-forum-topics-component>
+                </div>
             </div>
         </div>
+        <div class="col-2"></div>
     </div>
 </div>

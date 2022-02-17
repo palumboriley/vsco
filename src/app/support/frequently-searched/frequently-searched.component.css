@@ -1,0 +1,17 @@
+.card{
+    width:350px;
+    height: 100px;
+    border-color: white;
+    background-color:black;
+ 
+}
+
+.card:hover{
+    border-color: #AF9959;
+}
+
+.card-link{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}

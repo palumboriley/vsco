@@ -37,6 +37,19 @@ export const mock_commtopic_list= [
         color:'#edbb39',
     },
 
+
+    {
+        logo:"/assets/bootstrap-icons.svg#brush",
+        title:"Creativity",
+        firstLine:"Share your creativity and be",
+        secondLine:"inspired by others",
+        thirdLine:"",
+        fourthLine:"",
+        link:"Shaping History- Community dialogues for Black History Month",
+        link2:"",
+        color:'#aac9d1',
+    },
+
     
    
 ];

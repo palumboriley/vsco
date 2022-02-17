@@ -1,6 +1,79 @@
 Change Log / Release Notes
 Riley Palumbo
 
+CS230 Lab 5
+Main features:
+
+-3 new components in AccountLayoutComponent:
+
+*1st Card Component in AccountLayoutComponent: Account Circle Component- programatically repeated component - 3 instances
+- Account Circle Component has 3 attributes: title(string), logo(string), and color(string) 
+-created and imlemeted account.circle.component.html, account.circle.component.ts, and account.circle.component.css
+-created and implemented accountcircle.model.ts
+-created  and implemented mock_accountcircle_list.ts
+-modifed account-layout.component.css
+-modified account-layout.component.html and organized with flex layout
+-modified account-layout.component.ts
+
+*2nd Form Component in AccountLayoutComponent: Profile Blank Component
+-created and implemented profile.blank.component.ts, profile.blank.component.html, and profile.blank.component.css
+-modified account-layout.component.css
+-modified account-layout.component.html and organized with flex layout
+-modified account-layout.component.ts
+
+*3rd Card Component in AccountLayoutComonent: VscoProfileCardComponent
+-created and implemented vsco.profile.card.component.html,vsco.profile.card.component.css, vsco.profile.card.component.ts
+-modified account-layout.component.css
+-modified account-layout.component.html and organized with padding 
+-modified account-layout.component.ts
+
+-3 new card components in SupportLayoutComponent:
+
+*1st Card component in AccountLayoutComponent: FrequentlySearchedComponent
+-created and implemented frequently-searched.component.css, frequently-searched.component.ts, and frequently-searched.component.html
+-modified support-layout.component.css
+-modified support-layout.component.html and organized component with bootstrap flex and rows/columns
+-modified support-layout.component.ts
+
+*2nd Card Component in SupportLayoutComponent: VideoTutorialsComponent
+-created and implemented video-tutorials.component.css,video-tutorials.component.ts, and video-tutorials.component.html
+-modified support-layout.component.css
+-modified support-layout.component.html and organized component with flex layout
+-modified support-layout.component.ts
+
+* 3rd Card Component in Support LayoutComponent: SupportPageComponent
+-created and implemented support-page.component.css,support-page.component.ts, and support-page.component.html
+-modified support-layout.component.css
+-modified support-layout.component.html and organized component with flex layout
+-modified support-layout.component.ts
+
+-modifed app.component.ts and app.module.ts to include new components
+
+
+Bonus Features:
+-added another comm topic component with mock_commtopic_list.ts
+
+-fixed layout of community-layout.component.html using flex from bootstrap with rows and cols 
+
+-added heading to community-layout.component.html
+-positioned heading correctly by modifying community-layout.component.css
+
+-modifed account-layout.component.html and account-layout.component.css to include titles and lines like the website has
+
+-programatically added multiple instances of FrequentlySearchedComponent- 3 instances- 1 input = title(string)
+
+-programatically added multiple instances of Account Circle Component
+
+
+
+
+*End of Lab 5 Change Log*
+
+
+
+
+
+
 
 CS230 Lab 4
 Main features:

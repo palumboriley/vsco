@@ -1,0 +1,26 @@
+.card{
+    height:700px;
+    width:1900px;
+
+    background-color: #EDBB39;
+}
+
+.card-text{
+    font-weight: 500;
+    
+}
+
+form{
+    width:300px;
+    color:#EDBB39;
+    border-color: black;
+}
+
+
+
+
+
+p.small-class{
+    font-size: 10px;
+}
+
