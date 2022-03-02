@@ -2,6 +2,44 @@ Change Log / Release Notes
 Riley Palumbo
 
 
+
+
+CS 230 Lab 7
+Main Features:
+
+-added to vsco realtime database on Firebase 
+    -added feed branch and 4 entries (0,1,2,3)
+-created and implemented feed.service.ts
+-modified my-home-layout.component.ts 
+
+
+
+Bonus Features:
+
+-added to vsco realtime database on Firebase
+    -added commtopics branch and 4 entries (0,1,2,3)
+-created and implemented commtopic.service.ts
+-modified community-layout.component.ts
+
+
+
+*End of Chnage Log for Lab 7*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CS230 Lab 6
 Main Features:
 
@@ -95,12 +133,6 @@ Bonus Features:
 
 
 *End of Lab 5 Change Log*
-
-
-
-
-
-
 
 
 

@@ -1,7 +1,6 @@
-import { Component } from "@angular/core";
-import { CommTopicModel } from "../community topics/commtopic.model";
-import { mock_commtopic_list } from "../community topics/mock_commtopic_list";
+import { Component, OnInit } from "@angular/core";
 import { FeedPictureModel } from "./feed-picture.model";
+import { FeedService } from "./feed.service";
 import { mock_picture_list } from "./mock_picture_list";
 
 @Component({
@@ -9,19 +8,21 @@ import { mock_picture_list } from "./mock_picture_list";
     templateUrl: "my-home-layout.component.html",
     styleUrls: ["my-home-layout.component.css"]
 })
-export class MyHomeLayoutComponent{
+export class MyHomeLayoutComponent implements OnInit{
     pictures: FeedPictureModel [] = [];
-    commtopics: CommTopicModel[]=[];
+    
   
-    constructor(){
-      for(var picture of mock_picture_list){
-        console.log(picture);
-        this.pictures.push(picture);
-      }
-  
-      for(var commtopic of mock_commtopic_list){
-        console.log(commtopic);
-        this.commtopics.push(commtopic);
-      }
+    constructor(private feedService:FeedService){
+      
+    }
+
+    ngOnInit(): void {
+        this.feedService.getFeed().subscribe(data=>{
+          console.log("Fetching feed data");
+          for(var feed of data){
+            console.log(feed);
+            this.pictures.push(feed);
+          }
+        })
     }
 }
