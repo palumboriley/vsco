@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
 import { CommTopicModel } from "./commtopic.model";
 
@@ -7,18 +7,17 @@ import { CommTopicModel } from "./commtopic.model";
     providedIn: 'root'
 })
 export class CommtopicService {
-    private baseUrl: string = "https://vsco-f1f4d-default-rtdb.firebaseio.com/";
-    private feedEndpoint: string = "commtopics.json";
+    
 
-    constructor(private http: HttpClient) {
+    constructor(private db: AngularFireDatabase) {
 
     }
 
     public getCommTopics() {
-        return this.http.get<CommTopicModel[]>(this.baseUrl + this.feedEndpoint);
+        return this.db.list<CommTopicModel>("commtopics").valueChanges();
     }
 
     public getCommTopic(index: number) {
-        return this.http.get<CommTopicModel>(this.baseUrl + 'feed/' + index + '.json')
+        
     }
 }

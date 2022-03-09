@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "vsco-f1f4d"
+  },
+  "targets": {
+    "vsco-f1f4d": {
+      "hosting": {
+        "vsco": [
+          "vsco-f1f4d"
+        ]
+      }
+    }
+  }
+}

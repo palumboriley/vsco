@@ -4,6 +4,36 @@ Riley Palumbo
 
 
 
+CS 230 Lab 8
+Main Features:
+-deployed my website to the internet by installing Firebase
+-modified angular.json to increase budgets->maximum error from 1mb to 2mb
+-modified app.module.ts to add angular firebase module, angular firestore module, enviroment, and database
+-modifed commtopic.service.ts -removed HttpClient dependency- added AngularFireBase as dependency
+-modified feed.service.ts (bonus)
+-added environment.prod.ts
+-added environment.ts
+-modified package.json
+-modified package-lock.json
+-added firebase.json
+-added firebase-hosting-merge.yml
+-added firebase-hosting-pull-request.yml
+-modified .gitignore
+-added .firebaserc
+
+
+Bonus Features:
+-modifed a second service file, feed.service.ts, -removed HttpClient dependency- added AngularFireBase as dependency
+
+
+
+
+
+*End of Chnage Log for Lab 8*
+
+
+
+
 CS 230 Lab 7
 Main Features:
 

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { TopNavBarComponent } from 'src/app/header/topnavbar.component';
+import { AngularFireModule } from '@angular/fire/compat';
 
 import { AppComponent } from './app.component';
 import { FeedPictureComponent } from './feed/feed.picture.component';
@@ -24,6 +25,10 @@ import { SupportPageComponent } from './support/support-page/support-page.compon
 import { SupportTopicsComponent } from './support/support-topics/support-topics.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import {HttpClientModule} from '@angular/common/http';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 
 
@@ -58,6 +63,8 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
 
   ],
   providers: [],
