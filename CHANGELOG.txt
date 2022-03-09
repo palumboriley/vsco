@@ -15,7 +15,7 @@ Main Features:
 -added environment.ts
 -modified package.json
 -modified package-lock.json
--added firebase.json
+-added and modified firebase.json
 -added firebase-hosting-merge.yml
 -added firebase-hosting-pull-request.yml
 -modified .gitignore
