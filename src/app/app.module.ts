@@ -29,6 +29,10 @@ import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddFeedPictureComponent } from './feed/add-feed-picture/add-feed-picture.component';
+import { FormsModule } from '@angular/forms';
+import { AddCommtopicComponent } from './community topics/add-commtopic/add-commtopic.component';
+
 
 
 
@@ -55,6 +59,9 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     SupportPageComponent,
     SupportTopicsComponent,
     UserInfoComponent,
+    AddFeedPictureComponent,
+    AddCommtopicComponent,
+
    
     
 
@@ -65,6 +72,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule,
 
   ],
   providers: [],

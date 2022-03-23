@@ -2,6 +2,26 @@ Change Log / Release Notes
 Riley Palumbo
 
 
+CS 230 Lab 9
+Main Features:
+-created and implemented add-feed-picture.component.ts
+-created add-feed-picture.component.css
+-created and implemented add-feed-picture.component.html
+-modified app.module.ts to include FormsModule and AddFeedPictureComponent
+-modifed feed.service.ts- added method to send data to backend
+-modified app-routing.module.ts to include routing for AddFeedPictureComponent
+
+
+Bonus Features:
+-created and implemented add-commtopic.component.ts
+-created add-commtopic.component.css
+-created and implemented add-commtopic.component.html
+-modified app.module.ts to include AddCommtopicComponent
+-modifed commtopic.service.ts- added method to send data to backend
+-modified app-routing.module.ts to include routing for AddCommtopicComponent
+
+
+
 
 
 CS 230 Lab 8
@@ -54,13 +74,6 @@ Bonus Features:
 
 
 *End of Chnage Log for Lab 7*
-
-
-
-
-
-
-
 
 
 

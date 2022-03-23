@@ -1,0 +1,75 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postForm="ngForm" (ngSubmit)="addCommtopic(postForm.value)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        logo:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="logo">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        title:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="title">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        firstLine:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="firstLine">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                    secondLine:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="secondLine">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        thirdLine:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="thirdLine">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                    fourthLine:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="fourthLine">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        link:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="link">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        link2:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="link2">
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        color:
+                    </span>
+                    <input type="text" class="form-control" ngModel name="color">
+                </div>
+               
+        
+                <button type="submit" class="btn btn-light">Add Community Forum Topic</button>
+            </form>
+
+        </div>
+    </div>
+
+</div>

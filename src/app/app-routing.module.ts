@@ -10,6 +10,8 @@ import { ProfileLayoutComponent } from './profile/profile-layout.component';
 import { DefaultHomeLayoutComponent } from './default-home-page/default-home-layout.component';
 import { AccountLayoutComponent } from './account/account-layout.component';
 import { SupportLayoutComponent } from './support/support-layout.component';
+import { AddFeedPictureComponent } from './feed/add-feed-picture/add-feed-picture.component';
+import { AddCommtopicComponent } from './community topics/add-commtopic/add-commtopic.component';
 
 const routes:Routes=[
   {
@@ -36,6 +38,15 @@ const routes:Routes=[
   path: 'support',
   component: SupportLayoutComponent
 },
+{
+  path: 'admin',
+  component: AddFeedPictureComponent
+},
+{
+  path: 'admin2',
+  component: AddCommtopicComponent
+},
+
 ];
 
 @NgModule({

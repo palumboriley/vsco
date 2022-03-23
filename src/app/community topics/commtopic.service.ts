@@ -20,4 +20,8 @@ export class CommtopicService {
     public getCommTopic(index: number) {
         
     }
+
+    addCommtopic(commtopic: CommTopicModel){
+        return this.db.list<CommTopicModel>("commtopics").push(commtopic);
+    }
 }

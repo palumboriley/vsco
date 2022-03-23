@@ -19,4 +19,8 @@ export class FeedService{
     public getAFeed(index:number){
 
     }
+
+    addFeedPicture(feed: FeedPictureModel){
+        return this.db.list<FeedPictureModel>("feed").push(feed);
+    }
 }
