@@ -12,6 +12,7 @@ import { AccountLayoutComponent } from './account/account-layout.component';
 import { SupportLayoutComponent } from './support/support-layout.component';
 import { AddFeedPictureComponent } from './feed/add-feed-picture/add-feed-picture.component';
 import { AddCommtopicComponent } from './community topics/add-commtopic/add-commtopic.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes=[
   {
@@ -45,6 +46,10 @@ const routes:Routes=[
 {
   path: 'admin2',
   component: AddCommtopicComponent
+},
+{
+  path: 'auth',
+  component: AuthenticationComponent
 },
 
 ];

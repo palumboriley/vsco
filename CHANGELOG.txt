@@ -2,6 +2,16 @@ Change Log / Release Notes
 Riley Palumbo
 
 
+CS 230 Lab 10
+Main Features:
+-modified app-routing.module.ts to add routing for AuthenticationComponent
+-modified app.module.ts to include Authentication Component
+-created authentication.component.css
+-created and implemented authentication.component.html
+-created and implemented authentication.component.ts
+-created and implemented authentication.service.ts
+
+
 CS 230 Lab 9
 Main Features:
 -created and implemented add-feed-picture.component.ts

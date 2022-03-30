@@ -32,6 +32,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddFeedPictureComponent } from './feed/add-feed-picture/add-feed-picture.component';
 import { FormsModule } from '@angular/forms';
 import { AddCommtopicComponent } from './community topics/add-commtopic/add-commtopic.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 
@@ -61,6 +62,7 @@ import { AddCommtopicComponent } from './community topics/add-commtopic/add-comm
     UserInfoComponent,
     AddFeedPictureComponent,
     AddCommtopicComponent,
+    AuthenticationComponent,
 
    
     
